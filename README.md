@@ -1,5 +1,5 @@
 # 🧠 DRIA – Deep Research and Intelligence Agent
-
+![logo](dria.png)
 **A local-first voice assistant that multitasks like no other.**
 
 ---

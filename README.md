@@ -104,13 +104,5 @@ Follow me on [LinkedIn](https://www.linkedin.com/in/dwain-barnes/) for updates &
 
 ---
 
-## 🌌 Coming Soon
-
-- [ ] GitHub banner
-- [ ] Custom logo
-- [ ] Sample configs & Docker setup
-- [ ] Easy one-liner install
-
----
 
 > _“Think deeply. Talk free. DRIA’s got you.”_

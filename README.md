@@ -70,9 +70,10 @@ She explains what she's doing and lets you know when research is ready.
 
 ## 📁 File Highlights
 
-- `livekit-firecrawl-agent.py` – DRIA’s brain and event loop
+- `dria-agent-deep-research.py.py` – DRIA’s brain and event loop
 - `system_prompt.txt` – Defines her voice, behavior, and response rules
 - `.env.local` – Place your configs (models, API ports, etc.)
+-  `tts.py` – Custom script for TTS 
 
 ---
 

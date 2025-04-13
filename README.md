@@ -1,2 +1,115 @@
-# Dria-livekit-agent-deep-research
-DRIA (Deep Research and Intelligence Agent) is a fully local voice assistant that can hold real-time conversations while performing deep research in the background — powered by Firecrawl, Mistral AI, Perplexica, and LiveKit.
+# 🧠 DRIA – Deep Research and Intelligence Agent
+
+**A local-first voice assistant that multitasks like no other.**
+
+---
+
+### 🎙️ Talk to DRIA like a friend.  
+While she silently conducts **deep research** in the background.
+
+> Imagine asking your assistant to research a technical topic —  
+> and casually switching to talk about lunch — without breaking flow.
+
+---
+
+## 🚀 What Makes DRIA Different?
+
+Most assistants either:
+- Go **silent** while they "think"
+- Or give you **surface-level** responses fast
+
+**DRIA does both.**
+- 🧠 Performs **deep research** using Firecrawl (in a Docker container)
+- 🔍 Uses **Perplexica** for quick, AI-powered local web searches
+- 🗣️ Keeps chatting with you in real-time using **Mistral AI (3.1 small)** via Ollama
+- 🎧 Fully **voice-enabled** via Faster-Whisper STT & Kokoro-82M TTS
+- 🧩 Built on **LiveKit Voice Agent** + custom scripts
+- 🔒 100% **local and private** – no data ever leaves your machine
+
+---
+
+## 🛠️ Tech Stack
+
+| Feature              | Tool / Model                                                                 |
+|----------------------|------------------------------------------------------------------------------|
+| Voice Input          | [Faster-Whisper STT (Speaches AI)](https://github.com/speaches-ai/speaches)                      |
+| Voice Output         | [Kokoro-82M  (https://github.com/remsky/Kokoro-FastAPI)]                                                  |
+| LLM Engine           | [Mistral 3.1 small](https://mistral.ai/) (via Ollama)                        |
+| Quick Web Search     | [Perplexica](https://github.com/ItzCrazyKns/Perplexica) – AI-powered local search engine |
+| Deep Research Engine | [Firecrawl](https://firecrawl.dev/)                                          |
+| Orchestration        | [LiveKit Agents](https://github.com/livekit/agents)                          |
+| Containerized?       | ✅ Fully Dockerized                                                           |
+| Cloud Calls?         | ❌ None – all local                                                           |
+
+---
+
+## 🧪 Capabilities
+
+- 🔍 Quick Search for instant facts (via **Perplexica**)
+- 🧠 Deep Research on complex topics (via **Firecrawl**)
+- 💬 Real-time voice chat with natural conversation
+- 📡 Parallel multitasking — keep talking while DRIA researches
+- 🧾 Research history stored locally as JSON
+
+---
+
+## 📦 How to Run
+
+> Instructions coming soon (or explore the `livekit-firecrawl-agent.py` to get started)
+
+---
+
+## 🎧 DRIA's Personality
+
+> “Helpful, intelligent, and totally unbothered by multitasking.”
+
+Her tone is clear, warm, and professional — designed for smooth voice interactions.  
+She explains what she's doing and lets you know when research is ready.
+
+---
+
+## 📁 File Highlights
+
+- `livekit-firecrawl-agent.py` – DRIA’s brain and event loop
+- `system_prompt.txt` – Defines her voice, behavior, and response rules
+- `.env.local` – Place your configs (models, API ports, etc.)
+
+---
+
+## 🤖 Powered by
+
+- [Firecrawl](https://firecrawl.dev/)
+- [Perplexica](https://github.com/ItzCrazyKns/Perplexica)
+- [LiveKit Agents](https://github.com/livekit/agents)
+- [Mistral](https://mistral.ai/)
+- [Ollama](https://ollama.ai/)
+- [Speaches AI](https://github.com/speaches-ai/speache)
+- [Kokoro TTS](https://github.com/Kokoro-ai/tts)
+
+---
+
+## 💻 Local. Private. Yours.
+
+> No cloud calls.  
+> No data leaving your machine.  
+> Just fast, intelligent research & conversation.
+
+---
+
+## 📍 Author
+
+Built with ❤️ by [Dwain Barnes](https://github.com/dwain-barnes)  
+Follow me on [LinkedIn](https://www.linkedin.com/in/dwain-barnes/) for updates & demos!
+
+---
+
+## 🌌 Coming Soon
+
+- [ ] GitHub banner
+- [ ] Custom logo
+- [ ] Sample configs & Docker setup
+- [ ] Easy one-liner install
+
+---
+
+> _“Think deeply. Talk free. DRIA’s got you.”_

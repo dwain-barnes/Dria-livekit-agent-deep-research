@@ -55,7 +55,7 @@ Most assistants either:
 
 ## 📦 How to Run
 
-> Instructions coming soon (or explore the `livekit-firecrawl-agent.py` to get started)
+> Instructions coming soon
 
 ---
 

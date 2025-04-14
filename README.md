@@ -33,7 +33,7 @@ Most assistants either:
 | Feature              | Tool / Model                                                                 |
 |----------------------|------------------------------------------------------------------------------|
 | Voice Input          | [Faster-Whisper STT (Speaches AI)](https://github.com/speaches-ai/speaches)                      |
-| Voice Output         | [Kokoro-82M  (https://github.com/remsky/Kokoro-FastAPI)]                                                  |
+| Voice Output         | [Kokoro-82M  ](https://github.com/remsky/Kokoro-FastAPI)                                                 |
 | LLM Engine           | [Mistral 3.1 small](https://mistral.ai/) (via Ollama)                        |
 | Quick Web Search     | [Perplexica](https://github.com/ItzCrazyKns/Perplexica) – AI-powered local search engine |
 | Deep Research Engine | [Firecrawl](https://firecrawl.dev/)                                          |
@@ -84,7 +84,7 @@ She explains what she's doing and lets you know when research is ready.
 - [LiveKit Agents](https://github.com/livekit/agents)
 - [Mistral](https://mistral.ai/)
 - [Ollama](https://ollama.ai/)
-- [Speaches AI](https://github.com/speaches-ai/speache)
+- [Speaches AI](https://speaches.ai/)
 - [Kokoro TTS](https://github.com/Kokoro-ai/tts)
 
 ---
